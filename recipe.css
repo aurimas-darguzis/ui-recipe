@@ -1,0 +1,73 @@
+.container {
+  /* display: flex; */
+}
+
+/* HEADER */
+header {
+  border: 2px solid green;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+}
+
+.bookmark {
+  height: 40px;
+  border: 1px solid orangered;
+}
+
+/* DISPLAY */
+.display {
+  border: 2px solid yellowgreen;
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+}
+
+.display img {
+  border: 1px solid grey;
+  width: 70vw;
+}
+
+.display .mini-ingredients {
+  border: 1px solid gold;
+  width: 30vw;
+}
+
+.logo {
+  width: 20vw;
+  border: 1px solid blue;
+}
+
+.title {
+  width: 60vw;
+  border: 1px solid steelblue;
+}
+
+.bookmark {
+  width: 20vw;
+  height: 30vh;
+  border: 1px solid brown;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  border: 2px solid green;
+  height: 20vh;
+  width: 100vw;
+}
+
+footer .instructions {
+  border: 1px solid darkgreen;
+  width: 30vw;
+}
+
+footer .description {
+  border: 1px solid darkgrey;
+  width: 40vw;
+}
+
+footer .cta {
+  border: 1px solid red;
+  width: 30vw;
+}
